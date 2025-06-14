@@ -1,62 +1,55 @@
-📊 GBM Crime Dashboard
-A modern, responsive dashboard built with Next.js to visualize crime data across the UAE. It features interactive maps and charts to help track, analyze, and understand crime trends in different emirates.
+# 📊 GBM Crime Dashboard
 
-🚀 Features
-🗺️ Map View: Interactive map displaying all reported crimes across Emirates.
+A modern, responsive dashboard built with **Next.js** to visualize crime data across the UAE.  
+It features interactive maps and charts to help track, analyze, and understand crime trends in different emirates.
 
-📈 Charts & Graphs: Dynamic visualizations such as pie charts and bar charts to analyze crime types, distribution, severity, and more.
+---
 
-🌗 Dark / Light Theme: Toggle between light and dark themes seamlessly.
+## 🚀 Features
 
-🌍 Internationalization (i18n): Supports both Arabic and English interfaces.
+- 🗺️ **Map View**: Interactive map displaying all reported crimes across Emirates.
+- 📈 **Charts & Graphs**: Dynamic visualizations such as pie charts and bar charts to analyze crime types, distribution, severity, and more.
+- 🌗 **Dark / Light Theme**: Toggle between light and dark themes seamlessly.
+- 🌍 **Internationalization (i18n)**: Supports both Arabic and English interfaces.
+- 📱 **Responsive Design**: Fully optimized for all screen sizes.
 
-📱 Responsive Design: Fully optimized for all screen sizes.
+---
 
-🛠️ Tech Stack
-Frontend & UI:
+## 🛠️ Tech Stack
 
-Next.js 15 (App Router with Turbopack)
+### Frontend & UI
+- **Next.js 15** (App Router with Turbopack)
+- **React 19**
+- **Tailwind CSS** – Utility-first styling
+- **Lucide React** – Icon library
+- **Radix UI** – Accessible UI components (e.g. dropdown menu)
 
-React 19
+### Charts & Maps
+- **Recharts** – Dynamic data visualizations
+- **React Leaflet + Leaflet** – Interactive maps
 
-Tailwind CSS for utility-first styling
+### Theming & Utilities
+- **next-themes** – Light/Dark mode toggling
+- `clsx`, `class-variance-authority`, `tailwind-merge` – Class name utilities
 
-Lucide React for icons
+### Type System & Tooling
+- **TypeScript**
+- **ESLint**
+- **PostCSS & Autoprefixer**
 
-Radix UI for dropdowns and accessibility primitives
+---
 
-Charts & Maps:
+## 🧑‍💻 Getting Started
 
-Recharts – for rendering dynamic charts
-
-React Leaflet + Leaflet – for rendering the interactive crime map
-
-Theming & Utilities:
-
-next-themes – for dark/light mode support
-
-clsx, class-variance-authority, tailwind-merge – for class name management and conditional styling
-
-Type System & Tooling:
-
-TypeScript
-
-ESLint
-
-PostCSS & Autoprefixer
-
-🧑‍💻 Getting Started
-bash
-Copy
-Edit
+```bash
 # Install dependencies
 npm install
 
-# Run in development
+# Run in development mode
 npm run dev
 
 # Build for production
 npm run build
 
-# Start production server
+# Start the production server
 npm start
